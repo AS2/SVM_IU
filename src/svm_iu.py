@@ -103,7 +103,7 @@ class SVMClassifier:
         return min([deltaAcS, deltaAcR, deltaAcg, deltaAca])
 
     # TODO: Rewrite this and previous functions, which depends on 'ordered' elements of set S (they can be uordered!)
-    # Also rewrite this and write next function like in the poggio
+    # Also rewrite this and write next function like in the Tomaso Poggio Incremental and Decremental Support Vector Machine Learning
     def AddToSetSIndex(self, new_index, new_x, new_y):
         # step 1 - count betas for new appended support vector
         tmpVec = [new_y] + [
